@@ -180,8 +180,8 @@ The ROS parameter server is used to keep track of a number of variables that are
   - `mmm/dimensions/chestToShoulder`: the horizontal length from the middle of the chest to the middle of the shoulder joint
   - `mmm/dimensions/shoulderToElbow`: the distance from the middle of the shoulder joint to the middle of the elbow joint
   - `mmm/dimensions/elbowToWrist`: the distance from the middle of the elbow joint to the end of the arm
-  - `wheelSeparation`: the length between the wheels
-  - `wheelRadius`: the radius of the wheels
+  - `mmm/dimensions/wheelSeparation`: the length between the wheels
+  - `mmm/dimensions/wheelRadius`: the radius of the wheels
 
 - `mmm/ACTUATOR_NAME/min` and `mmm/ACTUATOR_NAME/max`  
   Specifies the minimum and maximum limits of the various actuators in the MMM robot. Replace `ACTUATOR_NAME` with the name of the `move_command` message field to return the limiting values. These are for your use only in limiting the values of sent to the robot. The `mmm` node does clamp down your values, but it has no way of signaling back that this has happened. There is an example of these parameters in use in the [teleop tutorial](tutorials/teleop.md).  
