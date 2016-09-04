@@ -159,4 +159,4 @@ Now you're ready to let your MMM autonomously map a room! The best location for 
 - Make use of the [ROS navigation stack](http://wiki.ros.org/navigation) to set waypoints for your robot
 - Set up 2D mapping with [gmapping](http://wiki.ros.org/gmapping) and [depthimage_to_laserscan](http://wiki.ros.org/depthimage_to_laserscan) and 2D localization with [amcl](http://wiki.ros.org/amcl).
 
-[Completed tutorial files]() **TODO: add link to completed tutorial**
+[Completed tutorial files](https://github.com/Choitek/mmmros-tutorials/tree/master/mmm_kinect)

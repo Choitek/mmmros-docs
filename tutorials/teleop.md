@@ -204,4 +204,4 @@ roslaunch mmm_teleop teleop.launch
 
 *With the Tkinter window in focus*, you can enter any of the specified keys and the robot's actuators will move. The program is very basic and doesn't have a lot of robustness to multiple key commands, so be careful pressing multiple keys at the same. Have fun controlling the motions of your MMM robot with your keyboard!
 
-[Completed tutorial files]() **TODO: add link to completed tutorial**
+[Completed tutorial files](https://github.com/Choitek/mmmros-tutorials/tree/master/mmm_teleop)

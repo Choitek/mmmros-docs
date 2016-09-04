@@ -81,7 +81,7 @@ Now that your catkin workspace is fully set up, you can download the `mmmros` pa
 1. Navigate to the source folder:  
   `cd ~/catkin_ws/src`
 2. Clone the github repository:  
-  `git clone https://github.com/ianholst/mmmros.git` **TODO: update address**
+  `git clone https://github.com/Choitek/mmmros.git`
 3. Download the MMM Python library (and optionally the MMM Speaker library) from the [official repository](https://github.com/Choitek/MultipurposeMobileManipulatorMk1/tree/master/Software/Libraries/Python%202.7) and put them in the scripts directry of the `mmmros` package.
 3. Mark the files in the scripts directory as executable:  
   `chmod -R +x mmmros/scripts`
@@ -97,16 +97,16 @@ If the package built successfully, you are now ready to begin controlling your M
 ## Tutorials
 These tutorials will get you on track with the skills to write your own ROS programs and may give you some ideas of where to go next. Before delving straight into programming the MMM, it is highly suggested that you complete the sequence of [ROS beginner tutorials](http://wiki.ros.org/ROS/Tutorials), starting with #2, "[Navigating the ROS Filesystem](http://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)". If you plan on using Python to develop for ROS, it is also worthwhile to look through the [overview of the rospy API](http://wiki.ros.org/rospy/Overview). Finally, you can refer to the MMM API Documentation below while completing these tutorials. Note that it's possible to use C++ with `mmmros` due to the modular nature of ROS, but all provided code and tutorials will be in Python.
 
-1. #### [Writing a teleop node]() **TODO: update address**
+1. #### [Writing a teleop node](tutorials/teleop.md)
    Create a program to control the movements of the robot.
 
-2. #### [Using tf]() **TODO: update address**
+2. #### [Using tf](tutorials/tf.md)
    Learn how to use the tf library to give your robot some spatial awareness.
 
-3. #### [Mapping and navigation with the Kinect (SLAM)]() **TODO: update address**
+3. #### [Mapping and navigation with the Kinect (SLAM)](tutorials/kinect.md)
    Use the Microsoft Kinect to give your robot vision, mapping, and autonomy capabilities.
 
-[This repository]() **TODO: update address** has the completed packages for all of the tutorials for your reference. You can clone the entire repository into your catkin workspace and build it (`catkin_make`) so all of the tutorials are ready to run.
+[This repository](https://github.com/Choitek/mmmros-tutorials) has the completed packages for all of the tutorials for your reference. You can clone the entire repository into your catkin workspace and build it (`catkin_make`) so all of the tutorials are ready to run.
 
 ## API Documentation
 Our ROS library operates in a very similar way to the pure Python library (in fact, it uses it as its base), except that it allows for higher-level robotics work in conjunction with other nodes. You are encouraged to look through the well-commented code for the MMM node, located in `mmmros/scripts/mmm_node.py`. It is expected that you are already familiar with the regular MMM Python library.

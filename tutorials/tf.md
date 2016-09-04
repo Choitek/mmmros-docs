@@ -188,4 +188,4 @@ Allow Rviz to load, click on the Add button in the toolbar on the lower left, an
 
 ![](../images/tf.png)
 
-[Completed tutorial files]() **TODO: add link to completed tutorial**
+[Completed tutorial files](https://github.com/Choitek/mmmros-tutorials/tree/master/mmm_tf)
